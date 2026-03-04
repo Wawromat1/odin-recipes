@@ -9,14 +9,23 @@ The repository uses a simple directory layout that keeps the root directory clea
 Folder structure
 
 .
+
 ├── index.html
+
 ├── recipes/
+
 │   ├── Kaiserschmarrn.html
+
 │   ├── Popcornchicken.html
+
 │   └── Pizza.html
+
 └── recipes/images/
+
     ├── Kaiserschmarrn_headingImg.jpeg
+
     ├── Popcornchicken_headingImg.jpeg
+    
     └── Pizza_headingImg.jpeg
 
 Navigation is implemented through relative paths. The landing page links to the recipe pages inside the recipes folder, and each recipe page links back to the landing page using a parent-directory reference. This is the key concept being practiced: controlling navigation with correct relative linking instead of hard-coded absolute URLs. Images are also loaded via relative paths. Since the recipe HTML files and the images folder are both located inside recipes, each recipe page can reference its header image through a short and consistent path that points into the images directory.
