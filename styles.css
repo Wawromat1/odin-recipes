@@ -7,14 +7,16 @@ html {
     padding: 0;
 }
 
+/* Styles for index.html */
+
 h1 {
     text-align: center;
     font-size: 50px;
 }
 
 .divider {
-    margin: 0 auto;
-    width: 70%;
+    margin: 50px auto;
+    width: 90%;
     height: 1px;
     background-color: white;
 }
@@ -40,5 +42,44 @@ ul li a {
 }
 
 li a:hover {
+    background-color: #2222;
+}
+
+/* Styles for recipe pages */
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h2, h3, p {
+    margin-left: 20px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+h2, description-title {
+    margin-top: 40px;
+}
+
+ul li, ol li {
+    margin-top: 15px;
+}
+
+.home-btn {
+    display: block;
+    margin: 40px auto;
+    background-color: #333;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid grey;
+}
+
+.home-btn:hover {
     background-color: #2222;
 }
